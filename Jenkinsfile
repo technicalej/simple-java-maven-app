@@ -7,7 +7,7 @@ pipeline {
         stage('Build'){
             
             agent {
-                label "mymaven3"
+                label "mydocker"
             }
           
           steps {
